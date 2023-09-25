@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Tune_tale</title>
-  <link rel="icon" href="l4.jpeg" />
+  <link rel="icon" href="logo.png" />
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
@@ -13,29 +13,32 @@
     integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous">
   </script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+ 
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Anurati&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Pacifico&display=swap">
+
   <style>
     body.light-mode {
-      background-color: #ddd;
+      /* background-color: #ddd; */
+      background: linear-gradient(to right, #abf1e2, #dc94f1);
+      
       color: black;
-      font-family: Handlee, cursive;
       text-shadow: 4.5px 4.5px rgba(242, 242, 242, 0.711)
     }
 
     body.dark-mode {
-      background-color: rgb(63, 62, 62);
+      /* background-color: rgb(63, 62, 62); */
+      background: linear-gradient(to right, #049e87cf, #3c016da4);
       color: white !important;
       text-shadow: 4.5px 4.5px rgba(7, 7, 7, 0.711);
-      font-family: Handlee, cursive;
     }
 
     mode-toggle.light-mode {
       background-color: #17a2b8;
-      font-family: Handlee, cursive;
     }
 
     mode-toggle.dark-mode {
       background-color: #17a2b8;
-      font-family: Handlee, cursive;
     }
 
     .navbar.light-mode {
@@ -76,20 +79,20 @@
 
 <body class="light-mode">
   <!--------------------------------------- navbar -->
-  <nav class="navbar navbar-expand-lg " style="font-family: Handlee, cursive;text-shadow: none;">
+  <nav class="navbar navbar-expand-lg " style="text-shadow: none;">
     <div class="container-fluid px-5">
-      <a class="navbar-brand px-5 fw-bold fs-4" href="#"> <img src="l4.jpeg" height="30" alt=""> Tune Tales</a>
+      <a class="navbar-brand px-5 fw-bold fs-4 " href="#" style="font-family: 'anurati';"> <img src="logo.png" height="30" alt="" class="pe-3">TUNE TALES</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
         aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-3 ">
-          <li class="nav-item px-2 fw-bold">
-            <a class="nav-link active" aria-current="page" href="/index.html">Home</a>
+          <li class="nav-item px-2 fs-4">
+            <a class="nav-link active" aria-current="page" href="/index.html">HOME</a>
           </li>
-          <li class="nav-item px-2 fw-bold">
-            <a class="nav-link" href="/about.html">About us</a>
+          <li class="nav-item px-2 fs-4">
+            <a class="nav-link" href="/about.html">ABOUT US</a>
           </li>
         </ul>
 
@@ -98,7 +101,7 @@
     </div>
   </nav>
   <!-------------------------------------------header  -->
-  <div class="container-fluid" style="background-color: #b2f9f88c;">
+  <div class="container-fluid" >
     <div class="container py-5">
       <div class="row py-3">
         <div class="col-xl-4 col-sm-8 px-xl-4">
@@ -107,14 +110,12 @@
         <div class="col-xl-8 col-sm-8 mx-auto text-center px-4">
           <div class="row">
             <div class="col-xl-2 col-sm-0"></div>
-            <div class="col-xl-10 col-sm-10 mx-auto">
-              <h1 class="fw-semibold display-3 mt-5"
-                style="font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Know your music and book
-                according to your mood.</h1>
-              <p class="fs-4 mt-5" style="font-family: sans-serif;text-shadow: none">"Discover the perfect rythem for
+            <div class="col-xl-8 col-sm-10 mx-auto">
+              <h1 class="fw-semibold display-3 mt-5" style="font-family:'Pacifico', cursive;">Embrace Emotion: Music & Book for Your Mood.</h1>
+              <p class="fs-4 mt-5" style="font-family: sans-serif;text-shadow: none">"Discover the perfect rythm for
                 every mood - where music and literature converge."</p>
-              <a href="#tune_form" class="btn btn-outline-light fw-semibold rounded-pill mt-5 px-5"
-                style="background-color: #17b968;text-shadow: none;">Record or Search with your vibe!</a>
+              <a href="#tune_form" class="btn btn-outline-dark fw-semibold  rounded-pill mt-5 px-5"
+                style=" text-shadow: none;">Record or Search with your vibe!</a>
             </div>
           </div>
         </div>
@@ -126,14 +127,15 @@
     <div class="container">
       <div class="row">
         <div class="col-xl-6 col-sm-8 mx-auto my-5">
-          <div class="card  border-0">
+          <div class=" card border-0" >
             <div class="card-header text-center fw-bold fs-2 text-success "
               style="font-family: Handlee, cursive; text-shadow: 2.3px 2.3px rgba(186, 185, 185, 0.881);">Vibes!!!</div>
-            <div class="card-body mx-auto ">
+            <div class="card-body mx-auto px-5" style="width: 100%;">
               <form action="" method="" enctype="multipart/form-data">
                 <div class="mb-3 ">
-                  <textarea name="" id="" cols="60" rows="2" class="form-control border border-secondary border-1"
-                    placeholder="Enter Your Text...."></textarea>
+                  <!-- <textarea name="" id="" cols="60" rows="2" class="form-control border border-secondary border-1"
+                    placeholder="Enter Your Text...."></textarea> -->
+                    <input type="text" class="form-control" placeholder="Enter Your Text....">
                 </div>
                 <div class="mb-3 d-flex ">
                   <button class="btn  form-control mx-3 fw-semibold rounded-5 searching"><i
@@ -142,7 +144,7 @@
                     Camera</button>
                 </div>
                 <div class="mb-3">
-                  <input type="submit" class="form-control text-light fw-semibold rounded-5"
+                  <input type="submit" class="form-control text-light fw-semibold rounded-5 w-50 mx-auto" 
                     style="background-color: #17b968;">
                 </div>
               </form>
@@ -170,41 +172,42 @@
         </div>
 
         <div class="col-xl-4 col-sm-8 text-center  py-3 mx-auto">
-          <img src="l4.jpeg" alt="logo" height="70" class="rounded">
-          <p class="fs-4 fw-bold">Tune Tales</p>
+          <img src="logo.png" alt="logo" height="100" class="rounded">
+          <p class="fs-6 fw-bold">Tune Tales</p>
         </div>
       </div>
       <hr>
       <div class="row  mx-auto border-top-1">
-        <div class="col text-center">
-          <img src="l4.jpeg" alt="logo" height="30" class="rounded"><span class="text mute">© 2023. All rights are reserved.</span>
+        <div class="col text-center ">
+          <img src="logo.png" alt="logo" height="30" class="rounded"><span class="text mute">© 2023. All rights are reserved.</span>
         </div>
       </div>
+      <hr >
     </div>
   </div>
 
 
   <script>
-    // variable const ,var, let 
     const body = document.body;
-    const modeToggle = document.getElementById('mode-toggle');
-   
+    const toggleButton = document.getElementById('mode-toggle');
+    let isDarkMode = false;
+
+    // Function to toggle between light and dark mode
     function toggleMode() {
-      if (body.classList.contains('light-mode')) {
-        body.classList.replace('light-mode', 'dark-mode');
-        modeToggle.style.backgroundColor = 'black';
-        modeToggle.style.color = 'white';
-        
-      } else {
-        body.classList.replace('dark-mode', 'light-mode');
-        modeToggle.style.backgroundColor = 'white';
-        modeToggle.style.color = 'black';
-        
-      }
+        if (isDarkMode) {
+            body.classList.remove('dark-mode');
+            toggleButton.innerHTML = '<i class="bi bi-moon"></i>';
+            body.classList.remove("dark-mode");
+        } else {
+            body.classList.add('dark-mode');
+            toggleButton.innerHTML = '<i class="bi bi-sun"></i>';
+            body.classList.add("dark-mode");
+        }
+        isDarkMode = !isDarkMode;
     }
-    modeToggle.addEventListener('click', toggleMode);
-    const backToTopButton = document.getElementById('back-to-top');
-  </script>
+    // Add a click event listener to the toggle button
+    toggleButton.addEventListener('click', toggleMode);
+</script>
 </body>
 
 </html>
